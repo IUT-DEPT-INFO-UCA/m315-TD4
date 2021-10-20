@@ -15,7 +15,7 @@ public class FlightTest {
 
 	
 	Flight f1 ;
-	@BeforeEach
+	@Before
 	public void setUp() {
 		f1 = new Flight(100, LocalDate.of(2017,11,11), LocalTime.of(7, 45),"Nice","Paris");
 	}
